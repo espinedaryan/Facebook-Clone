@@ -1,0 +1,133 @@
+.left-sidebar {
+    position: fixed;
+    top: 55px;
+    bottom: 0px;
+    left: 0px;
+    width: 352px;
+}
+
+.left-side-marginner {
+    position: relative;
+    margin-top: 17px;
+    margin-left: 8px;
+    width: 343px;
+}
+
+.first-part {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.button {
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 8px;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    transition: background-color 150ms;
+}
+
+.button:hover {
+    background-color: var(--clr-bg-hover);
+}
+
+.button div {
+    margin-left: 10px;
+}
+
+.left-profile-picture {
+    height: 35px;
+    border-radius: 50px;
+}
+
+.left-sidebar-icon {
+    height: 35px;
+}
+
+.button2 {
+    padding-bottom: 0px;
+    padding-left: 5px;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    transition: background-color 150ms;
+}
+
+.button2:hover {
+    background-color: var(--clr-bg-hover);
+}
+
+.button2 div {
+    margin-left: 8px;
+}
+
+.see-more-icon {
+    height: 45px;
+}
+
+.gray-line2 {
+    margin-top: 10px;
+    background-color: var(--clr-gray-line);
+    height: 1px;
+    width: 95.5%;
+    margin-left: 8px;
+}
+
+.second-part {
+    display: flex;
+    flex-direction: column;
+}
+
+.shortcuts-text {
+    padding: 15px 0px 5px 10px;
+    font-size: 17px;
+    font-weight: 500;
+    color: var(--clr-placeholder);
+}
+
+.left-sidebar-icon2 {
+    height: 35px;
+    border-radius: 35px;
+}
+
+.left-sidebar-icon3 {
+    height: 35px;
+    border-radius: 7px;
+}
+
+.button3 {
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 8px;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    transition: background-color 150ms;
+}
+
+.button3:hover {
+    background-color: var(--clr-bg-hover);
+}
+
+.button3 div {
+    margin-left: 10px;
+}
+
+.additional-info {
+    margin-left: 8px;
+    position: absolute;
+    bottom: -181px;
+    width: 100%;
+    font-size: 13px;
+    color: var(--clr-placeholder);
+}

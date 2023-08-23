@@ -1,0 +1,7 @@
+body {
+    padding-top: 55px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: var(--clr-name);
+    background-color: var(--clr-background);
+    position: relative;
+}

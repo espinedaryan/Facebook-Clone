@@ -1,0 +1,29 @@
+:root {
+    --clr-background: #18191a;
+    --clr-header: #242526;
+    --clr-bg-hover: #3a3b3c;
+    --clr-trio-hover: #505153;
+    --clr-trio-active: #57585a;
+    --clr-placeholder: #afb3b8;
+    --clr-gray-line: #373839;
+    --clr-myday-active: #008bff;
+    --clr-reacts: #242526;
+    --clr-stories-gray-line: #2f3031;
+    --clr-active-status: #00a454;
+    --clr-name: #e5e8ef;
+}
+
+.light-mode {
+    --clr-background: #ecf0f1;
+    --clr-header: #ffffff;
+    --clr-bg-hover: #dadee0;
+    --clr-trio-hover: #cccfd4;
+    --clr-trio-active: #c0c0c8;
+    --clr-placeholder: #5d6163;
+    --clr-gray-line: #dadee2;
+    --clr-myday-active: #008bff;
+    --clr-reacts: #ffffff;
+    --clr-stories-gray-line: #cfcfcf;
+    --clr-active-status: #00a454;
+    --clr-name: #050505;
+}
